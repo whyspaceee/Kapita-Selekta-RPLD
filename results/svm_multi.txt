@@ -1,0 +1,24 @@
+Best parameters found: {'svm__C': 1, 'svm__gamma': 'scale', 'svm__kernel': 'rbf'}
+Validation Accuracy: 0.76
+Validation Classification Report:
+              precision    recall  f1-score   support
+
+    negative       0.74      0.68      0.71        38
+     neutral       0.71      0.71      0.71        24
+    positive       0.80      0.87      0.84        38
+
+    accuracy                           0.76       100
+   macro avg       0.75      0.75      0.75       100
+weighted avg       0.76      0.76      0.76       100
+
+Test Accuracy: 0.7875
+Test Classification Report:
+              precision    recall  f1-score   support
+
+    negative       0.76      0.78      0.77       153
+     neutral       0.71      0.74      0.72        96
+    positive       0.87      0.83      0.85       151
+
+    accuracy                           0.79       400
+   macro avg       0.78      0.78      0.78       400
+weighted avg       0.79      0.79      0.79       400

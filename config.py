@@ -30,4 +30,4 @@ class Config:
         self.freeze_bert = True
 
         # Early stopping: Stop if no improvement in validation loss for these many epochs
-        self.early_stopping_patience = 10
+        self.early_stopping_patience = 100

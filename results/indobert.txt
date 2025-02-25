@@ -1,0 +1,16 @@
+Best model from epoch 61 loaded.
+Test Loss: 0.4933 | Test Acc: 0.8575 | Precision: 0.8574 | Recall: 0.8575 | F1-score: 0.8565
+Confusion Matrix:
+[[137  10   6]
+ [ 16  71   9]
+ [ 11   5 135]]
+Test Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.84      0.90      0.86       153
+           1       0.83      0.74      0.78        96
+           2       0.90      0.89      0.90       151
+
+    accuracy                           0.86       400
+   macro avg       0.85      0.84      0.85       400
+weighted avg       0.86      0.86      0.86       400

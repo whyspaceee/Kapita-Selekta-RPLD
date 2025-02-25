@@ -1,0 +1,16 @@
+using model gemini
+Test Classification Report:
+              precision    recall  f1-score   support
+
+    negative       0.89      0.97      0.93       153
+     neutral       0.90      0.79      0.84        96
+    positive       0.96      0.94      0.95       151
+
+    accuracy                           0.92       400
+   macro avg       0.92      0.90      0.91       400
+weighted avg       0.92      0.92      0.92       400
+
+Confusion Matrix:
+[[142   5   4]
+ [  5  76  15]
+ [  1   3 149]]
